@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="shortcut icon" href="./multimedia/img/image.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <h1 id="titulo_principal"> Aprendiendo HTML </h1>
+
+    <h3>Qien es el Sanmart?</h3>
+
+    <p class="parrafo negrita">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea delectus iure quos aspernatur, qui incidunt nesciunt dolore exercitationem ullam aut. Nostrum id labore necessitatibus error laboriosam quae quas ab fuga?</p>
+
+    <h3>Etiqueta Img</h3>
+    <p>Categoria: en linea</p>
+
+    <!-- Imagen con ruta relativa -->
+    <img src="./multimedia/img/sanmart.jpg" alt="Fotuli del Sanmart">
+
+    <!-- Imagen con ruta Absoluta -->
+    <img src="https://www.cultura.gob.ar/media/uploads/5-daguerrotipo-original.jpg" alt="Fotuli del Sanmart oldie." width="330" height="433">
+
+    <h3>Etiqueta Figure</h3>
+    <p class="parrafo">Categoria: en linea</p>
+    <figure>
+        <img src="./multimedia/img/sanmart.jpg" alt="Fotuli del Sanmart">
+        <figcaption>El Sanmart</figcaption>
+    </figure>
+
+    <h3>Etiqueta Audio</h3>
+    <p>Categoria: en linea</p>
+    <audio controls  src="./multimedia/audio/AcrossTheUniverse.flac">
+        <!-- Aca con la etiqueta <source src=""> se puede poner varias versiones del audio -->
+    </audio>
+
+    <h3>Etiqueta Video</h3>
+    <p class="parrafo">Categoria: en linea</p>
+    <video src="./multimedia/video/synthesiavideo.mp4" controls width="500" height="500">
+    </video>
+
+    <h3>Etiqueta iframe</h3>
+    <p>Categoria: en linea</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fT_WjgJ_-r0?si=RpAG4HQn0A933TDX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h3>Etiqueta Tabla</h3>
+    <p class="parrafo">Categoria: en bloque</p>
+    <table>
+        <thead>
+            <tr>
+            <th>Clase</th>
+            <th>Tema</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>00</td>
+                <td>Prototipado</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>HTML1</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>HTML2</td>
+                <td>Eliminado</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cumque porro hic in vel dolores sunt repellat deserunt, temporibus consequuntur ratione magni eaque quae iure illum veniam ad dicta accusantium.</p>
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur earum cum, velit quos possimus laboriosam fuga repudiandae repellendus atque ullam aut sunt minus suscipit maiores mollitia laborum voluptatibus ipsam officiis?</p>
+        </section>
+    </div>
+
+</body>
+</html>
