@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f7f3e7; /* Fondo beige claro para un estilo vintage */
+    color: #333; /* Color de texto principal */
+}
+
+.header {
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/09/32/auto-1868726_1280.jpg');
+    background-position: 0% 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 40px 10px;
+    text-align: center; /* Centrar el contenido del header */
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centrar elementos de la lista */
+}
+
+.nav-item {
+    margin: 0 15px; /* Espaciado entre elementos de la lista */
+}
+
+.nav-item > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.nav-item > a:hover {
+    background-color: #050505;
+}
+
+.tituloPrincipal {
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+main {
+    text-align: center; /* Centrar contenido del main */
+    padding: 20px; /* Agregar espacio alrededor del contenido */
+}
+
+.text {
+    max-width: 800px; /* Limitar el ancho de la sección de historia */
+    margin: 0 auto; /* Centrar la sección de historia */
+}
+
+.contenedorCards {
+    display: flex;
+    justify-content: center; /* Centrar las tarjetas */
+    gap: 20px; /* Espaciado entre tarjetas */
+}
+
+.card {
+    max-width: 300px; /* Limitar el ancho de las tarjetas */
+    background-color: #fff; /* Fondo blanco para resaltar las tarjetas */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.card>img{
+    width: 260px;
+}
+
+footer {
+    background-color: #333; /* Fondo oscuro para el footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer img {
+    max-width: 100%; /* Ajustar el tamaño de la imagen en el footer */
+    margin-bottom: 10px;
+}

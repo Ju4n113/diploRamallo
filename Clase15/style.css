@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+.boxFlex {
+    border: 1px solid red;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.itemFlex {
+    width: 70px;
+    height: 70px;
+    border: 1px solid blue;
+}
+
+p{
+    text-align: center;
+}
