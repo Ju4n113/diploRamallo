@@ -1,0 +1,35 @@
+* {
+    filter: sepia(0.3);
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 3px 2px 3px grey;
+}
+
+.box {
+    border: 1px solid red;
+    width: 80%;
+    height: 200px;
+    margin-inline: 10%;
+    background-image: url('https://placekitten.com/500/500');
+    background-attachment:fixed;
+}
+
+#center {
+    text-align: center;
+    background-color: cadetblue;
+}
+
+#left {
+    text-align: left;
+
+}
+
+#right {
+    text-align: right;
+}
+
+#justify {
+    text-align: justify;
+}

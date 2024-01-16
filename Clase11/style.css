@@ -1,0 +1,19 @@
+.box {
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+}
+
+#hidden {
+    overflow: hidden;
+}
+
+#scroll {
+    overflow: scroll;
+}
+
+#rad{
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
