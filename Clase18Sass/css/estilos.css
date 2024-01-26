@@ -1,0 +1,22 @@
+h1 {
+  color: orange;
+}
+
+div {
+  margin: 0 auto;
+}
+div ul {
+  list-style: none;
+}
+div ul li {
+  text-decoration: none;
+}
+div ul li .links {
+  cursor: pointer;
+}
+
+h2 {
+  color: 0;
+}
+
+/*# sourceMappingURL=estilos.css.map */

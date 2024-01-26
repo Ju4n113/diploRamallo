@@ -1,0 +1,24 @@
+h1{
+    color: orange;
+}
+
+div{
+    margin: 0 auto;
+    ul{
+        list-style: none;
+        li{
+            text-decoration: none;
+            .links{
+                cursor: pointer
+            }
+        }
+    }
+}
+
+h2{
+    color: red($color: #000000);
+}
+
+h3{
+    color: aqua;
+}
